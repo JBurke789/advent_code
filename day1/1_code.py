@@ -1,6 +1,6 @@
 import numpy as np
 
-file = '1_input.txt'
+file = 'day1/1_input.txt'
 
 data = open(file).read()
 
@@ -18,3 +18,4 @@ print('max cals: ' + str(max(cals)))
 cals_sorted = sorted(cals,key=int, reverse=True)
 top3_comb = cals_sorted[0]+cals_sorted[1]+cals_sorted[2]
 print('three combined: ' + str(top3_comb))
+
